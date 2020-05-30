@@ -5,16 +5,16 @@
         padding:0;
     }
     h1{
-        font-size: 3vw;
+        font-size: 4vw;
     }
     
     h2{
         font-weight: bold;
-        font-size: 7vw;
+        font-size: 3.1vw;
     }
     
     p{
-        font-size: 6vw;
+        font-size: 3vw;
     }
     img{
         padding: 10px;
@@ -89,11 +89,11 @@
     
     h2{
         font-weight: bold;
-        font-size: 2vw;
+        font-size: 1.2vw;
     }
     
     p{
-        font-size: 1.8vw;
+        font-size: 1vw;
     }
     img{
         padding: 10px;
