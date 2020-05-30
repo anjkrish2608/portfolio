@@ -1,3 +1,10 @@
+h1{
+    font-size: 20vw;
+}
+
+p{
+    font-size: 5vw;
+}
 
 img{
     padding: 10px;
@@ -8,51 +15,35 @@ img{
 
 /*xs*/
 @media only screen and (max-width:575px){
-    .nav{
-        clear: both;
-        float: inline-start;
-    }
     .container{
-        background-color: turquoise;
+        margin: 0;
+        padding:0;
+        font-size: inherit;
     }
 /*/navbar container and container*/
 }
 
 /*s*/
 @media only screen and (min-width: 576px) and (max-width: 767px){
-    .nav{
-        clear: both;
-        float: inline-start;
-    }
     .container{
-        background-color: darkblue;
-        margin: 10px;
-        padding: 10px;
+        margin: 2px;
+        padding:2px;
+        font-size: x-large;
     }
 }
 
 /*m*/
 @media only screen and (min-width: 768pxpx) and (max-width: 991px){
-    .nav{
-        clear: both;
-        float: inline-start;
-    }
     .container{
-        background-color: darkorchid;
-        margin: 10px;
-        padding: 10px;
+        margin: 0 100px;
+        padding:auto;
     }
 }
 
 /*l*/
 @media only screen and (min-width:  992px){
-    .nav{
-        clear: both;
-        float: inline-start;
-    }
     .container{
-        background-color: yellow;
-        margin: 10px;
-        padding: 10px;
+        margin: 0 200px;
+        padding:auto;
     }
 }
