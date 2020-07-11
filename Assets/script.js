@@ -6,17 +6,17 @@ const actorAddict = {
 }
 
 const weatherDash = {
-    description: "",
-    tech: [],
-    deployLink: "",
-    gitHubLink: ""
+    description: "The application allows a user to access the current weather and 5 day forecast from a list of destinations using the Open Weather Map API. This includes the temperature in Kelvin and Farenheit, humidty, UV Index with a coloured button to represent (favourable, moderate and extreme), wind speed and a weather icon. ",
+    tech: ["Server side APIs: Open Weather Map", "3rd Party APIs: JQuery, Moment.js", "CSS Framework: Bootstrap", "CSS3", "HTML5"],
+    deployLink: "https://anjkrish2608.github.io/WeatherDashboard/",
+    gitHubLink: "https://github.com/anjkrish2608/WeatherDashboard"
 }
 
 const codeRefactor = {
-    description: "",
-    tech: [],
-    deployLink: "",
-    gitHubLink: ""
+    description: "This website provided by Trilogy Education Services has been refactored to increase web accessibility, increase code efficiency in the html and css and ensure function of links.",
+    tech: ["3rd Party APIs: Font Awesome, Google Fonts", "CSS3", "HTML5"],
+    deployLink: "https://anjkrish2608.github.io/refactorSEO/",
+    gitHubLink: "https://github.com/anjkrish2608/refactorSEO"
 }
 
 $("button").on("click", function () {
@@ -54,6 +54,6 @@ function showDetails(name,current){
     gitL.attr("href",current.gitHubLink);
     let depL =$("<a>").text("View Deployed Link Here \n");
     depL.attr("href",current.deployLink);
-    
-    target.append(heading,des,list,gitL,depL);
+    const br=$("<br>");
+    target.append(heading,des,list,gitL,br,depL);
 }
