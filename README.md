@@ -1,7 +1,8 @@
 # Anjini Krishnan's Portfolio
-![Image of main page]()
-![Image of porfolio page]()
-![Image of contact page]()
+<img src="Assets/css/completeHead.png" width="500"  alt="Main Page Header"/>
+<img src="Assets/css/completeFoot.png" width="500"  alt="Main Page Footer" />
+<img src="Assets/css/portfolioPreview.png" width="500"  alt="Portfolio Page"/>
+<img src="Assets/css/contactPreview.png" width="500"  alt="Contact Page" />
 
 * [View Portfolio Here](https://anjkrish2608.github.io/portfolio/)
 * [View Github Repository Here](https://github.com/anjkrish2608/portfolio)
@@ -13,6 +14,10 @@ Throughout forming this website I faced many challenges. Firstly the challenge o
 
 Throughout numerous testings the design in total is fairly mobile responsive, this is most definitely a key area of improvement for the website however I am happy with the progress made so far. The text size was set to view port which I am confident about.
 
+With the use of [W3Schools](https://www.w3schools.com) I was able to have a link for my email which would send the user to email me. The code I used is shown below and referenced [here](https://www.w3schools.com/tags/tag_address.asp).
+```
+<a href="mailto:webmaster@example.com">Jon Doe</a>
+```
 
 ## Credits
 Throughout the creation of this website the bootstrap documentation was heaviliy consulted. It was used to create the grid layout, the navbar, sticky footer and the cards. 
@@ -24,4 +29,3 @@ The tasksheet for this project was provided by Trilogy Education Services.
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
 
-https://www.w3schools.com/tags/tag_address.asp
