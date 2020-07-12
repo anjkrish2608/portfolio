@@ -19,41 +19,40 @@ const codeRefactor = {
     gitHubLink: "https://github.com/anjkrish2608/refactorSEO"
 }
 
-$("button").on("click", function () {
-    if(this.value==="0"){
-        var name="Actor Addict";
-        var current=actorAddict;
-        
+$(".projectButton").on("click", function() {
+    var name =$(this).text();
+    if (name === 'Actor Addict') {
+        var current = actorAddict;
     }
-    else if(this.value==="1"){
-        var name="Weather Dashboard";
-        var current=weatherDash;
+    else if (name === "Weather Dashboard") {
+        var current = weatherDash;
     }
-    else if(this.value==="2"){
-        var name="Code Refactor";
-        var current=codeRefactor;
+    else if ( name === "Code Refactor") {
+        var current = codeRefactor;
     }
+    console.log(name, current);
     showDetails(name, current);
 });
 
-function showDetails(name,current){
-    const target=$("#output");
+
+ showDetails = (name, current) => {
+    const target = $("#output");
     target.html(" ");
 
-    let heading=$("<h2>");
+    let heading = $("<h2>");
     heading.text(name);
-    
-    let des=$("<p>");
+
+    let des = $("<p>");
     des.text(current.description);
-    const list =$("<ul>");
-    for(let k=0;k<(current.tech).length;k++){
-        let item =$("<li>").text(current.tech[k]);
+    const list = $("<ul>");
+    for (let k = 0; k < (current.tech).length; k++) {
+        let item = $("<li>").text(current.tech[k]);
         list.append(item);
     }
-    let gitL=$("<a>").text("View GitHub Repository Here \n");
-    gitL.attr("href",current.gitHubLink);
-    let depL =$("<a>").text("View Deployed Link Here \n");
-    depL.attr("href",current.deployLink);
-    const br=$("<br>");
-    target.append(heading,des,list,gitL,br,depL);
+    let gitL = $("<a>").text("View GitHub Repository Here \n");
+    gitL.attr("href", current.gitHubLink);
+    let depL = $("<a>").text("View Deployed Link Here \n");
+    depL.attr("href", current.deployLink);
+    const br = $("<br>");
+    target.append(heading, des, list, gitL, br, depL);
 }
