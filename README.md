@@ -27,7 +27,7 @@ Overall I am happy with the improvements made however in the future I would like
 
 ## Credits
 Throughout the creation of this website the bootstrap documentation was heaviliy consulted. It was used to create the grid layout, the navbar, sticky footer, media querys' responsiveness and the cards. The suggested HTML from Trilogy was used as a template and changed in order to be responsive to media queries and viewport. [Font Awesome](https://fontawesome.com/) was used for all icons and [W3Schools](https://w3schools.com) was consulted for assistance.
-The html was validated through **https://www.freeformatter.com/html-validator.html**. 
+The html was validated through [Free For Matter](https://www.freeformatter.com/html-validator.html). 
 - - -
 The tasksheet for this project was provided by Trilogy Education Services. 
 
