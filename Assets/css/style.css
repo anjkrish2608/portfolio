@@ -17,7 +17,9 @@ body{
     background-color: white;
 }
 footer{
-    padding-left: 200px;
+    margin: 0px;
+    padding-left: 10px;
+    border: 0px;
 }
 a.projectButton.btn-success:link{
     text-decoration: none;
@@ -31,6 +33,7 @@ div.col-lg-3.main{
     .container{
         margin: 0;
         padding:0;
+        border: 0;
     }
     h1{
         font-size: 4vw;
