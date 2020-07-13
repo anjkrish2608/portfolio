@@ -1,7 +1,6 @@
 # Anjini Krishnan's Portfolio
-<img src="Assets/css/completeHead.png" width="500"  alt="Main Page Header"/>
-<img src="Assets/css/completeFoot.png" width="500"  alt="Main Page Footer" />
-<img src="Assets/css/portfolioPreview.png" width="500"  alt="Portfolio Page"/>
+<img src="Assets/css/completeAboutMe.png" width="500"  alt="Main Page"/>
+<img src="Assets/css/portfolioPreview.png" height="350"  alt="Portfolio Page"/>
 <img src="Assets/css/contactPreview.png" width="500"  alt="Contact Page" />
 
 * [View Portfolio Here](https://anjkrish2608.github.io/portfolio/)
