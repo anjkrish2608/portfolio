@@ -1,3 +1,7 @@
+div.card.m-1.p-4{
+    margin: 0;
+    width: 250px;
+}
 button{
     border-color: white;
     background-color: white;
@@ -17,6 +21,9 @@ footer{
 }
 a.projectButton.btn-success:link{
     text-decoration: none;
+}
+div.col-lg-3.main{
+    padding: 0;
 }
 
 /*xs*/
