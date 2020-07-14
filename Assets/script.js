@@ -1,4 +1,5 @@
 const actorAddict = {
+    name:"Actor Addict",
     description: "Our application allows users to search for a movie and see the plot, director, cast, ratings, poster, news on the movie and gifs related to the movie. My core responsibilities during the creation of the project were to use the OMDB API to access the film’s plot, director, cast, ratings and poster and output this data using JQuery into the HTML. I was also responsible for creating the readme for the repository.",
     tech: ["Server side APIs: OMDB, G News, GIPHY", "3rd Party APIs: JQuery, Moment.js, Google Fonts", "CSS Framework: Skeleton", "CSS3", "HTML5"],
     deployLink: "https://sophienicholas.github.io/Famous-Fact.github.io/",
@@ -6,6 +7,7 @@ const actorAddict = {
 }
 
 const weatherDash = {
+    name:"Weather Dashboard",
     description: "The application allows a user to access the current weather and 5 day forecast from a list of destinations using the Open Weather Map API. This includes the temperature in Kelvin and Farenheit, humidty, UV Index with a coloured button to represent (favourable, moderate and extreme), wind speed and a weather icon. ",
     tech: ["Server side APIs: Open Weather Map", "3rd Party APIs: JQuery, Moment.js", "CSS Framework: Bootstrap", "CSS3", "HTML5"],
     deployLink: "https://anjkrish2608.github.io/WeatherDashboard/",
@@ -13,24 +15,18 @@ const weatherDash = {
 }
 
 const codeRefactor = {
+    name:"Code Refactor",
     description: "This website provided by Trilogy Education Services has been refactored to increase web accessibility, increase code efficiency in the html and css and ensure function of links.",
     tech: ["3rd Party APIs: Font Awesome, Google Fonts", "CSS3", "HTML5"],
     deployLink: "https://anjkrish2608.github.io/refactorSEO/",
     gitHubLink: "https://github.com/anjkrish2608/refactorSEO"
 }
+const projects =[actorAddict, weatherDash, codeRefactor];
 
 $(".projectButton").on("click", function() {
-    var name =$(this).text();
-    if (name === 'Actor Addict') {
-        var current = actorAddict;
-    }
-    else if (name === "Weather Dashboard") {
-        var current = weatherDash;
-    }
-    else if ( name === "Code Refactor") {
-        var current = codeRefactor;
-    }
-    console.log(name, current);
+    const index=$(this).attr("value");
+    const current = projects[index];
+    const name =current.name;
     showDetails(name, current);
 });
 
